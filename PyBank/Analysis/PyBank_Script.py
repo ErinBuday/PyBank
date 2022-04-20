@@ -6,8 +6,8 @@ import os
 import csv
 
 # Set path for data
-csvpath = os.path.join('.', 'budget_data.csv')
-pathout = os.path.join('.', 'budget_analysis.txt')
+csvpath = os.path.join('..', 'Resources', 'budget_data.csv')
+pathout = os.path.join('..', 'Resources', 'budget_analysis.txt')
 
 # Lists and variables to store data
 date = []

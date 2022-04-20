@@ -10,8 +10,8 @@ vote_counts = []
 election_data = ['1', '2']
 
 # Set Path for Data
-election_dataCSV = os.path.join('.', 'election_data.csv')
-pathout = os.path.join(',', 'election_results.txt')
+csvpath = os.path.join('..', 'Resources', 'election_data.csv')
+pathout = os.path.join('..', 'Analysis', 'election_results.txt')
 
 # Loop through files
 for files in election_data:
